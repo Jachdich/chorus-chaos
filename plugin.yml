@@ -1,0 +1,25 @@
+name: choruschaos
+main: com.cospox.choruschaos.Main
+version: 0.1
+api-version: 1.14
+commands:
+  stopgame:
+    description: Stops and resets the game
+    usage: /stopgame
+    permission: choruschaos.stop
+    permission-message: You don't have <permission>
+  pausegame:
+    description: Pauses the game
+    usage: /pausegame
+    permission: choruschaos.pause
+    permission-message: You don't have <permission>
+  startgame:
+    description: Re-starts a paused or reset game
+    usage: /startgame
+    permission: choruschaos.start
+    permission-message: You don't have <permission>
+  respawn:
+    description: Teleports the player if they glitch through a wall
+    usage: /respawn
+    permission: choruschaos.respawn
+    permission-message: You don't have <permission>
